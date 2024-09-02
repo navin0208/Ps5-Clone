@@ -1,0 +1,2681 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.upperbar {
+    background-color: black;
+    height: 36px;
+    width: 100%;
+}
+
+.upperimage {
+    filter: invert(1);
+    height: 85px;
+    width: 85px;
+}
+
+.up1 {
+    float: right;
+    margin-top: -25px;
+}
+
+:root {
+    --white: #1F1F1F;
+    --gray: #757575;
+    --blue: #0070cc;
+}
+
+.navbar {
+    height: 41px;
+    color: var(--white);
+    display: flex;
+}
+
+.pslogo {
+    height: 44px;
+    width: 74px;
+    margin-top: 5px;
+}
+
+.Elements a {
+    margin-left: 2vw;
+    color: var(--gray);
+    transition: 0.5s;
+}
+
+.Elements {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 650;
+}
+
+.Ebuttons {
+    float: left;
+    width: 40%;
+    position: relative;
+    justify-items: right;
+}
+
+.btn {
+    float: right;
+    background-color: var(--blue);
+    width: 80px;
+    height: 34px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 650;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #002c7d;
+}
+
+.einput {
+    float: right;
+    margin-top: 10px;
+    width: 180px;
+    height: 34px;
+    margin-left: 10px;
+    background-image: url('src/search.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: px;
+    background-size: contain;
+    border: grey 1px solid;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.Elements a:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.einput::placeholder {
+    font-size: 18px;
+}
+
+.logon {
+    width: 145px;
+    height: 88px;
+}
+
+.thirdbar {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+
+}
+
+.items {
+    margin-top: 10px;
+}
+
+.items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.mbtn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(236, 234, 234);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.mbtn:hover {
+    background-color: #d2d2d2;
+}
+
+.itemwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btns {
+    width: 100%;
+}
+
+.nbtn {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    background-color: #D53B00;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 100px;
+    float: right;
+}
+
+.nbtn:hover {
+    background-color: rgb(162, 45, 0);
+
+    border: rgb(162, 45, 0) 2px solid;
+}
+
+.vid1 {
+    position: absolute;
+    z-index: -1;
+}
+
+.ps5 {
+    height: 200px;
+    filter: invert(1);
+}
+
+.img {
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tt {
+    margin-top: 40%;
+    font-size: 10px;
+    color: white;
+
+}
+
+.section2 {
+    background-image: url(src/section2\ bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+}
+
+.sect2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sect3 {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+.sect3 h1 span {
+    font-size: 20px;
+}
+
+.sect4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chimg {
+    width: 100px;
+
+
+}
+
+.ch1 p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.sect5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.sect5 p span {
+    font-size: 10px;
+}
+
+.vid2 {
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: blur(10px);
+
+}
+
+.section4 {
+    background-image: url(src/section2\ bg.jpg);
+    height: 500px;
+}
+
+.see {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.card {
+
+
+    height: 300px;
+    width: 450px;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.card:hover {
+
+    background-color: #D53B00;
+    height: 300px;
+    width: 450px;
+    border-radius: 24px;
+    scale: 1.25;
+    box-shadow: 1px;
+}
+
+.text2wrapper {
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text2 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.ik {
+    display: flex;
+    justify-content: center;
+}
+
+.card iframe {
+    height: 300px;
+    width: 450px;
+    border-radius: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.section5 {
+    margin-top: -350px;
+    height: 1000px;
+    position: sticky;
+    background-color: #d8dce8;
+}
+
+.rt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    font-size: 30px;
+}
+
+.rt p {
+    margin-top: 150px;
+    animation: fade;
+    color: gray;
+}
+
+.rt2 {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.controller {
+    animation: fade-in linear;
+    animation-timeline: view();
+    position: absolute;
+    width: 2500px;
+    scroll-behavior: smooth;
+    margin-top: 100px;
+    visibility: hidden;
+    top: 200px;
+
+}
+
+@keyframes fade-in {
+    0% {
+        margin-top: -100px;
+        width: 3500px;
+        visibility: hidden;
+    }
+
+    10% {
+        margin-top: 00px;
+        width: 3250px;
+        visibility: visible;
+    }
+
+    20% {
+        margin-top: 00px;
+        width: 3000px;
+        visibility: visible;
+    }
+
+    30% {
+        width: 2750px;
+        visibility: visible;
+
+    }
+
+    40% {
+        width: 2500px;
+        visibility: visible;
+
+    }
+
+    50% {
+        width: 2250px;
+        visibility: visible;
+    }
+
+    60% {
+        width: 1750px;
+        visibility: visible;
+
+    }
+
+    70% {
+        width: 1500px;
+        visibility: visible;
+    }
+
+    80% {
+
+        width: 1000px;
+        visibility: visible;
+    }
+
+    100% {
+        width: 500px;
+        visibility: hidden;
+
+    }
+}
+
+.video5 {
+    width: 50%;
+}
+
+.video3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section6 {
+    height: 1400px;
+    background-color: #d8dce8;
+    z-index: -1;
+    animation: Shakalaka linear;
+    animation-timeline: view();
+
+
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+    left: 0;
+
+}
+
+.heading {
+    margin-top: "";
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 50px;
+    font-weight: 100;
+    /* animation: boom linear;
+    animation-timeline:view(); */
+
+}
+
+.sense {
+    margin-top: -700px;
+    flex-direction: column;
+    animation: sense linear;
+    animation-timeline: view();
+    position: absolute;
+    z-index: 7;
+    color: black;
+}
+
+@keyframes sense {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes boom {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.sectionchild {
+
+    background-image: url(a/ps5-immersive_controller-internals-widescreen-0000.webp);
+    z-index: 1;
+}
+
+@keyframes Shakalaka {
+    0% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0002.webp)
+    }
+
+    1% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0003.webp)
+    }
+
+    2% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0004.webp)
+    }
+
+    3% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0005.webp);
+    }
+
+    4% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0006.webp);
+    }
+
+    5% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0007.jfif);
+    }
+
+    6% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0008.webp);
+    }
+
+    7% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0009.webp);
+    }
+
+    8% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0010.webp);
+    }
+
+    9% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0011.webp);
+    }
+
+    10% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0012.webp);
+    }
+
+
+
+
+    11% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0013.webp)
+    }
+
+    12% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0014.webp)
+    }
+
+    13% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0015.webp);
+    }
+
+    14% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0016.webp);
+    }
+
+    15% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-00017.jfif);
+    }
+
+    16% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0018.webp);
+    }
+
+    17% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0019.webp);
+    }
+
+    18% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0020.webp);
+    }
+
+    19% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0021.webp);
+    }
+
+    20% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0022.webp);
+    }
+
+
+
+
+
+    21% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0023.webp)
+    }
+
+    22% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0024.webp)
+    }
+
+    23% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0025.webp);
+    }
+
+    24% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0026.webp);
+    }
+
+    25% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0027.jfif);
+    }
+
+    26% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0028.webp);
+    }
+
+    27% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0029.webp);
+    }
+
+    28% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0030.webp);
+    }
+
+    29% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0031.webp);
+    }
+
+    30% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0032.webp);
+    }
+
+
+    31% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0033.webp)
+    }
+
+    32% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0034.webp)
+    }
+
+    33% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0035.webp);
+    }
+
+    34% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0036.webp);
+    }
+
+    35% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0037.jfif);
+    }
+
+    36% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0038.webp);
+    }
+
+    37% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0039.webp);
+    }
+
+    38% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0040.webp);
+    }
+
+    39% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0041.webp);
+    }
+
+    40% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0042.webp);
+    }
+
+
+    41% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0043.webp)
+    }
+
+    42% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0044.webp)
+    }
+
+    43% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0045.webp);
+    }
+
+    44% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0046.webp);
+    }
+
+    45% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0047.webp);
+    }
+
+    46% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0048.webp);
+    }
+
+    47% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0049.jfif);
+    }
+
+    48% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0050.webp);
+    }
+
+    49% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0051.jfif);
+    }
+
+    50% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0052.jfif);
+    }
+
+
+    51% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0053.webp)
+    }
+
+    52% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0054.jfif)
+    }
+
+    53% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0055.jfif);
+    }
+
+    54% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0056.jfif);
+    }
+
+    55% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0057.jfif);
+    }
+
+    56% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0058.webp);
+    }
+
+    57% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0059.jfif);
+    }
+
+    58% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0060.webp);
+    }
+
+    59% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0061.webp);
+    }
+
+    60% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0062.jfif);
+    }
+
+
+
+    61% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0063.jfif)
+    }
+
+    62% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0064.webp)
+    }
+
+    63% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0065.webp);
+    }
+
+    64% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0066.webp);
+    }
+
+    65% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0068.jfif);
+    }
+
+    66% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0069.jfif);
+    }
+
+    67% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0069.jfif);
+    }
+
+    68% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0070.webp);
+    }
+
+    69% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0071.webp);
+    }
+
+    70% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0072.webp);
+    }
+
+
+    71% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp);
+    }
+
+    72% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    73% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    74% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    75% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    76% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    77% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    78% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    79% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    80% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    81% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp);
+    }
+
+    82% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    83% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    84% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    85% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    86% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    87% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    88% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    89% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    90% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    91% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp);
+    }
+
+    92% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    93% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    94% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    95% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    96% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    97% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    98% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    99% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+
+    100% {
+        background-image: url(a/ps5-immersive_controller-internals-widescreen-0073.webp)
+    }
+}
+
+.circle {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    z-index: 2;
+    border: white 5px dotted;
+    border-radius: 500px;
+    animation: spin infinite 50s;
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.sense1 {
+    margin-top: -1200px;
+    position: absolute;
+    position: absolute;
+    z-index: 7;
+    animation: boom linear;
+    animation-timeline: view();
+
+}
+
+.section7 {
+    height: 1700px;
+    width: 100%;
+    background-color: #D9DBEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loop1 {
+    margin-top: -250px;
+    width: 50%;
+}
+
+.loop1vid {
+    margin-top: -30px;
+    width: 125%;
+}
+
+.linek {
+    font-size: 50px;
+
+    color: #1f1f11;
+    font-weight: 100;
+    margin-right: 0px;
+    height: 1700px;
+    z-index: 7;
+    box-shadow: -300px 14px 90px -17px #D9DBEA;
+}
+
+.para1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 150px;
+
+}
+
+.para {
+    margin-top: 500px;
+}
+
+.section8 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.heptic {
+    position: absolute;
+    margin-top: -400px;
+    margin-right: 100px;
+}
+
+.gow1 {
+    font-size: 40px;
+}
+
+.gow2 {
+    font-size: 30px;
+}
+
+.gowbtn {
+    width: 170px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0070cc;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+}
+
+.gowbtn:hover {
+    background-color: white;
+    color: var(--blue);
+
+
+}
+
+.section9 {
+    background-color: #D8DCE8;
+    height: 2000px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.controlwrapper {
+    display: flex;
+
+}
+
+.pseudo {
+    width: 50%;
+
+}
+
+.pseudotext {
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.pstext {
+    font-size: 20px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs {
+    width: 1300px;
+}
+
+.circle2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+
+    border: 6px white dotted;
+    animation: spin infinite 30s;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main2-i {
+    width: 8 00px;
+    margin-left: 100px;
+
+}
+
+.main2-txt {
+    font-size: 60px;
+    font-weight: 100;
+
+}
+
+.cs2 {
+    font-size: 30px;
+}
+
+.section10 {
+    background-color: #D8DCE8;
+    height: 1000px;
+    width: 100%;
+
+}
+
+.sect-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 100;
+    align-items: center;
+    height: 100px;
+    animation: come linear;
+    animation-timeline: view();
+}
+
+.sect-head {
+    margin-top: 500px;
+}
+
+@keyframes come {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes come2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+.sect-heading2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 100;
+    align-items: center;
+    height: 1000px;
+    text-align: center;
+    perspective: -1000px;
+
+    margin-top: -500px;
+}
+
+.sect-head2 {
+    margin-top: 600px;
+    animation: come2 linear;
+    animation-timeline: view();
+    z-index: 1;
+}
+
+.sect2-shape {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -300px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px white dotted;
+    -webkit-animation: spin 20s linear infinite;
+    animation: spn linear;
+    animation-timeline: view();
+
+
+
+}
+
+@keyframes spn {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 5;
+    }
+}
+
+.sect-shape {
+    display: flex;
+    justify-content: center;
+}
+
+.section11 {
+    height: 1000px;
+
+
+
+}
+
+.pt2 {
+    width: 100%;
+
+}
+
+.pt3 {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pt-t {
+    color: white;
+    font-size: 90px;
+    font-weight: 800;
+    margin-top: 600px;
+}
+
+.parallax2 {
+    height: 1000px;
+
+}
+
+.section12 {
+    z-index: 1;
+    height: 100vh;
+}
+
+.section13 {
+    position: absolute;
+    height: 1000px;
+    background-color: #D8DCE8;
+
+
+}
+
+.mom {
+    animation: mom1 linear;
+    animation-timeline: view();
+    visibility: hidden;
+
+
+}
+
+.ptwrapper2 {
+    height: 2000px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pt10 {
+    color: white;
+    font-size: 80px;
+    margin-right: 900px;
+    font-weight: 100;
+    animation: ptwr linear;
+    animation-timeline: view();
+}
+
+@keyframes ptwr {
+    from {
+        margin-bottom: 10px;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        margin-bottom: 500px;
+    }
+}
+
+.ptwrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+.pt5 {
+    position: absolute;
+}
+
+.pt6 {
+    font-size: 40px;
+    animation: ptup linear;
+    animation-timeline: view();
+
+}
+
+.pt7 {
+    font-size: 20px;
+    animation: ptup linear;
+    animation-timeline: view();
+}
+
+.pt8 {
+    font-size: 40px;
+    animation: ptdown linear;
+    animation-timeline: view();
+
+}
+
+.pt9 {
+    font-size: 20px;
+    animation: ptdown linear;
+    animation-timeline: view();
+}
+
+@keyframes ptup {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes ptdown {
+    from {
+        opacity: 0;
+        margin-top: -100px;
+
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+@keyframes mom1 {
+    from {
+        margin-top: 0px;
+        visibility: visible;
+
+    }
+
+    to {
+        margin-top: -2000px;
+        visibility: visible;
+    }
+}
+
+.section14 {
+    margin-top: 950px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #D8DCE8;
+    z-index: -1;
+    width: 100%;
+}
+
+/* .video--4{
+    margin-right: 50px;
+    width: 500px;
+}
+.text4{
+    font-size: 40px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.ttt2{
+    font-size: 30px;
+}
+.ttt{
+    font-size: 40px;
+} */
+.text-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.video--4 {
+    margin-right: 250px;
+    width: 800px;
+    z-index: 50;
+    box-shadow: 15px -13px 43px -18px rgba(255, 255, 255, 1);
+}
+
+.ttt {
+    font-size: 60px;
+    font-weight: 300;
+    color: #1F1F1F;
+}
+
+.ttt2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #1F1F1F;
+    margin-left: -180px;
+}
+
+.video-4 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.section15 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D8DCE8;
+}
+
+.main6 {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.video-6 {
+    width: 900px;
+    box-shadow: 15px -13px 43px -18px rgba(255, 255, 255, 1);
+}
+
+.text6 {
+    font-weight: 300;
+    color: #1F1F1F;
+
+}
+
+.vibrant-txt1 {
+    font-size: 60px;
+}
+
+.vibrant-txt2 {
+    font-size: 30px;
+}
+
+.section16 {
+    background-color: #D8DCE8;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D8DCE8;
+}
+
+
+.main7 {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.text7 {
+    font-weight: 300;
+    color: #1F1F1F;
+    margin-top: -200px;
+}
+
+.video7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.video6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.video-7 {
+    width: 800px;
+    box-shadow: 15px -13px 43px -18px rgba(255, 255, 255, 1);
+}
+
+.fpstxt1 {
+    font-size: 60px;
+}
+
+.fpstxt2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section17 {
+    background-color: #D8DCE8;
+    display: flex;
+    justify-content: center;
+    height: 1500px;
+}
+
+.main9 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+
+
+}
+
+.video8 {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text8 {
+    color: #1F1F1F;
+
+
+}
+
+.ktxt {
+    font-size: 60px;
+    margin-left: 300px;
+
+}
+
+.ktxt2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 300px;
+
+}
+
+.video-8 {
+    box-shadow: 15px -13px 43px -18px rgba(255, 255, 255, 1);
+}
+
+.main10 {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.venturetxt {
+    font-size: 100px;
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section19 {
+    height: 260vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(9, 49, 182), rgb(7, 39, 142));
+    margin-top: -100px;
+}
+
+.games {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.gamecard {
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-image: url(Carusel/ps5-game_carousel-02_horizon-forbidden-west.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.gcwr {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+}
+
+.p1 {
+    font-size: 18px;
+    color: white;
+}
+
+.p2 {
+    font-size: 13px;
+    color: white;
+}
+
+.gamecard2 {
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Carusel/ps5-game-carousel-cod-mw3-04dec23.webp);
+    cursor: pointer;
+
+}
+
+.gamecard3 {
+    cursor: pointer;
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Carusel/ps5-game-carousel-spider-man-2-11dec23.webp);
+
+
+}
+
+.gamecard4 {
+    cursor: pointer;
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Carusel/ps5-game-carousel-avatar-frontiers-04dec23.webp);
+
+}
+
+.gamecard5 {
+    cursor: pointer;
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Carusel/ps5-game_carousel-03_ratchet-and-clank.webp);
+
+}
+
+#game2:hover {
+    scale: 1.05;
+
+}
+
+#game2 {
+    transition: 0.5s;
+}
+
+
+
+
+
+
+.ps4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid {
+    width: 2px;
+    background-color: white;
+    animation: line2 linear;
+    animation-timeline: view();
+
+}
+
+.ps4ltext {
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+}
+
+.ps4stext {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    font-weight: 600;
+}
+
+.ps4btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    transition: 0.54s;
+}
+
+.ps4btn:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.boost-ltxt {
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+
+}
+
+.boost-stxt {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    font-weight: 600;
+
+}
+
+@keyframes line2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hrwr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hr {
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    animation: line2 linear;
+    animation-timeline: view();
+
+}
+
+.vr {
+    margin-top: 100px;
+}
+
+.main11 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.vrltxt {
+    font-size: 60px;
+    color: white;
+}
+
+.vrstxt {
+    font-size: 20px;
+    color: white;
+}
+
+.vr-text {
+    align-items: center;
+    margin-left: 300px;
+    width: 500px;
+
+}
+
+.vr-img {
+    width: 50%;
+
+}
+
+.vrimg {
+    scale: 1.5;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+
+.vr {
+    background-image: url(svgs/momentum-background-tri.webp);
+    background-size: cover;
+    height: 88vh;
+    z-index: -1;
+    /* transform: translateZ(-200px); */
+    /* transform-style: preserve-3d; */
+    animation: up linear;
+    animation-timeline: scroll();
+}
+
+.section20 {
+    background-image: url(PS/ps-plus_background.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main12 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.psp-img {
+    width: 250px;
+}
+
+.psltxt {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.psstxt {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 100px;
+
+}
+
+.psptxt {
+    align-items: center;
+    height: 100px;
+}
+
+.section21 {
+    height: 1800vh;
+    background-color: #D8DCE8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hdimg {
+    margin-top: 400px;
+
+}
+
+@keyframes para2 {
+    from {
+        margin-top: 0px;
+        visibility: visible;
+
+    }
+
+    to {
+        margin-top: -2000px;
+        visibility: visible;
+    }
+}
+
+.hdwr {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+}
+
+.audio {
+    margin-top: 900px;
+    font-size: 40px;
+    animation: dd linear;
+    animation-timeline: view();
+    visibility: hidden;
+    transition: 4s;
+}
+
+@keyframes dd {
+    from {
+        margin-top: 900px;
+        visibility: visible;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: "";
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.audio2 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.animation {
+    height: 100vh;
+    background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0000.webp);
+    /* background-size:""; */
+    animation: change linear;
+    animation-timeline: view();
+    background-repeat: no-repeat;
+    margin-top: 1000px;
+
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+    left: 0;
+}
+
+@keyframes change {
+    0% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0001.webp);
+    }
+
+    1% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0002.webp);
+    }
+
+    2% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0003.webp);
+    }
+
+    3% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0004.webp);
+    }
+
+    4% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0005.webp);
+    }
+
+    5% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0006.webp);
+    }
+
+    6% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0007.webp);
+    }
+
+    7% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0008.jfif);
+    }
+
+    8% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0009.jfif);
+    }
+
+    9% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0010.jfif);
+    }
+
+    10% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0011.jfif);
+    }
+
+
+
+
+
+    11% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0012.jfif);
+    }
+
+    12% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0013.jfif);
+    }
+
+    13% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0014.jfif);
+    }
+
+    14% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0015.jfif);
+    }
+
+    15% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0016.jfif);
+    }
+
+    16% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0017.jfif);
+    }
+
+    17% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0018.jfif);
+        margin-top: 750px;
+    }
+
+    18% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0019.jfif);
+        margin-top: 800px;
+    }
+
+    19% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0020.jfif);
+        margin-top: 900px;
+    }
+
+    20% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0021.webp);
+        margin-top: 1000px;
+    }
+
+    21% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0022.webp);
+        margin-top: 1100px;
+    }
+
+    22% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0023.webp);
+        margin-top: 1200px;
+    }
+
+    23% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0024.webp);
+        margin-top: 1300px;
+    }
+
+    24% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0025.webp);
+        margin-top: 1400px;
+    }
+
+    25% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0026.webp);
+        margin-top: 1500px;
+    }
+
+    26% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0027.webp);
+        margin-top: 1600px;
+    }
+
+    27% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0028.webp);
+        margin-top: 1700px;
+    }
+
+    28% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0029.webp);
+        margin-top: 1800px;
+    }
+
+    29% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0030.webp);
+        margin-top: 1900px;
+    }
+
+    30% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0031.webp);
+        margin-top: 2100px;
+    }
+
+    31% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0032.webp);
+        margin-top: 2200px;
+    }
+
+    32% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0033.webp);
+        margin-top: 2300px;
+    }
+
+    33% {
+        margin-top: 2400px;
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0034.webp);
+    }
+
+    34% {
+        margin-top: 2500px;
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0035.webp);
+    }
+
+    35% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0036.webp);
+        margin-top: 2600px;
+    }
+
+    36% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0037.webp);
+        margin-top: 2700px;
+    }
+
+    37% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0038.webp);
+        margin-top: 2800px;
+    }
+
+    38% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0039.webp);
+        margin-top: 2900px;
+    }
+
+    39% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0040.webp);
+        margin-top: 3000px;
+    }
+
+    40% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0041.webp);
+        margin-top: 3100px;
+    }
+
+    41% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0042.webp);
+        margin-top: 3200px;
+    }
+
+    42% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0043.webp);
+        margin-top: 3300px;
+    }
+
+    43% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0044.webp);
+        margin-top: 3400px;
+    }
+
+    44% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0045.webp);
+        margin-top: 3500px;
+    }
+
+    45% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0046.webp);
+        margin-top: 3600px;
+    }
+
+    46% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0047.webp);
+        margin-top: 3700px;
+    }
+
+    47% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0048.webp);
+        margin-top: 3800px;
+    }
+
+    48% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0049.webp);
+        margin-top: 3900px;
+    }
+
+    49% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0050.webp);
+        margin-top: 4000px;
+    }
+
+    50% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0051.webp);
+        margin-top: 4000px;
+    }
+
+    51% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0052.webp);
+        margin-top: 4000px;
+    }
+
+    52% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0053.webp);
+        margin-top: 4000px;
+    }
+
+    53% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0054.webp);
+        margin-top: 4000px;
+    }
+
+    54% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0055.webp);
+        margin-top: 4000px;
+    }
+
+    55% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0056.webp);
+        margin-top: 4000px;
+    }
+
+    56% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0057.webp);
+        margin-top: 4000px;
+    }
+
+    57% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0058.webp);
+        margin-top: 4000px;
+    }
+
+    58% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0059.webp);
+        margin-top: 4000px;
+    }
+
+    59% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0060.webp);
+        margin-top: 4000px;
+    }
+
+    60% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0061.webp);
+        margin-top: 4000px;
+    }
+
+
+    61% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0062.webp);
+        margin-top: 4000px;
+    }
+
+    62% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0063.webp);
+        margin-top: 4000px;
+    }
+
+    63% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0064.webp);
+        margin-top: 4000px;
+    }
+
+    64% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0065.webp);
+        margin-top: 4000px;
+    }
+
+    65% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0066.webp);
+        margin-top: 4000px;
+    }
+
+    66% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0067.webp);
+        margin-top: 4000px;
+    }
+
+    67% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0068.webp);
+        margin-top: 4000px;
+    }
+
+    68% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0069.webp);
+        margin-top: 4000px;
+    }
+
+    69% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0070.webp);
+        margin-top: 4000px;
+    }
+
+    70% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0071.webp);
+        margin-top: 4000px;
+    }
+
+    71% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0072.webp);
+        margin-top: 4000px;
+    }
+
+    72% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0073.webp);
+        margin-top: 4000px;
+    }
+
+    73% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0074.webp);
+        margin-top: 4000px;
+    }
+
+    74% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0075.webp);
+        margin-top: 4000px;
+    }
+
+    75% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0076.webp);
+        margin-top: 4000px;
+    }
+
+    76% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0077.webp);
+        margin-top: 4000px;
+    }
+
+    77% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0078.webp);
+        margin-top: 4000px;
+    }
+
+    78% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0079.webp);
+        margin-top: 4000px;
+    }
+
+    79% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0080.webp);
+        margin-top: 4000px;
+    }
+
+    80% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0081.webp);
+        margin-top: 4000px;
+    }
+
+    81% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0082.webp);
+        margin-top: 4000px;
+    }
+
+    82% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0083.webp);
+        margin-top: 4000px;
+    }
+
+    83% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0084.webp);
+        margin-top: 4000px;
+    }
+
+    84% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0085.webp);
+        margin-top: 4000px;
+    }
+
+    85% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0086.webp);
+        margin-top: 4000px;
+    }
+
+    86% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0087.webp);
+        margin-top: 4000px;
+    }
+
+    87% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0088.webp);
+        margin-top: 4000px;
+    }
+
+    88% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0089.webp);
+        margin-top: 4000px;
+    }
+
+    89% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0090.webp);
+        margin-top: 4000px;
+    }
+
+    90% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0091.webp);
+        margin-top: 4000px;
+    }
+
+    91% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0092.webp);
+        margin-top: 4000px;
+    }
+
+    92% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0093.webp);
+        margin-top: 4000px;
+    }
+
+    93% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0094.webp);
+        margin-top: 4000px;
+    }
+
+    94% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0095.webp);
+        margin-top: 4000px;
+    }
+
+    95% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0096.webp);
+        margin-top: 4000px;
+    }
+
+    96% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0097.webp);
+        margin-top: 4000px;
+    }
+
+    97% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0098.webp);
+        margin-top: 4000px;
+    }
+
+    98% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0099.webp);
+        margin-top: 4000px;
+    }
+
+    99% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0100.webp);
+        margin-top: 4000px;
+    }
+
+    100% {
+        background-image: url(b/ps5-immersive_audio-widescreen-image-sequence-0101.webp);
+        margin-top: 4000px;
+    }
+
+
+
+
+}
+
+.anitxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.animp {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.animp2 {
+    font-size: 20px;
+
+}
+
+.section22 {
+    margin-top: -2000px;
+    background-color: #B9BECA;
+    display: flex;
+    justify-content: center;
+}
+
+.ik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 1000px;
+}
+
+.iktxt2 {
+    font-size: 20px;
+}
+
+.iktxt {
+    font-size: 40px;
+
+
+}
+
+.section23 {
+    background-image: url(src/comparison-consoles-xl_@2x.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: small2 linear;
+    animation-timeline: view();
+}
+
+.kt {
+    font-size: 100px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+
+}
+
+@keyframes small2 {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 0.1;
+        margin-bottom: 500px;
+    }
+}
+
+.section24 {
+    background-color: #D8DCE8;
+    margin-top: -400px;
+    height: 100vh;
+}
+
+.pts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.l1 {
+    font-size: 40px;
+}
+
+.l2 {
+    font-size: 20px;
+}
+
+.r1 {
+    font-size: 40px;
+}
+
+.r2 {
+    font-size: 20px;
+}
+
+.linewr {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.lin69 {
+    height: 2px;
+    width: 70%;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.section25 {
+    background-image: url(src/footer-bg-xl@2x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.dada {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+}
+
+.kt2 {
+    color: white;
+    font-size: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.parent {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.st {
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+
+.nd {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.words {
+    margin: 50px;
+}
+
+.psk-img {
+    width: 300px;
+    filter: invert(1);
+}
+
+footer {
+    background-color: #00439C;
+    height: 80vh;
+}
+
+.hp {
+
+    color: white;
+}
+
+.linewr2 {
+    display: flex;
+    justify-content: center;
+}
+
+.line70 {
+    height: 1px;
+    width: 90%;
+    background-color: white;
+}
+
+.main30 {
+    margin: 50px;
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+
+.child1 a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pp {
+    display: flex;
+    justify-content: center;
+}
+.white {
+    color: white;
+}
+.white a {
+    color: white;
+}
+.daka {
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+.kop a{
+    color: white;
+    float: right;
+    text-decoration: none;
+}
